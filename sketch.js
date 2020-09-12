@@ -180,6 +180,6 @@ if(turn === 5){
 function mousePressed(){
   if(gamestate !== "end"){
     turn = turn+1;
-    particle = new Particle(mouseX,mouseY,10,10);
+    particle = new Particle(mouseX,10,10,10);
   }
 }
